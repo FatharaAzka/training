@@ -1,0 +1,147 @@
+.wrapper {
+  width: 100%;
+  position: relative;
+}
+
+.nav-padding {
+  padding: 0rem 1rem;
+}
+
+.nav-cover {
+  display: table-row;
+}
+
+.position-abs {
+  position: absolute;
+}
+.position-rel {
+  position: relative;
+}
+
+.collapsible {
+  border:none;
+  box-shadow:none;
+}
+
+.collapsible-header {
+  background: transparent;
+  border:none;
+}
+
+.waves-effect.waves-brown .waves-ripple {
+  background-color: rgba(238, 110, 115, 0.85);
+}
+
+.pink-text {
+  color:rgb(238, 110, 115);
+}
+
+ul.collapsible li.bold.active a.active{
+  background: rgb(238, 110, 115);
+  color: #fff !important;
+}
+
+.collapsible-body {
+  padding: 1rem 2rem;
+}
+
+.collapsible-body ul li {
+  padding:0.5rem 0rem;
+}
+
+.collapsible-body ul li a {
+  color:#000;
+}
+html, body {
+/*  color: #fff;*/
+  font-family: 'Raleway', sans-serif;
+  font-weight: 100;
+  height: 100vh;
+  margin: 0;
+}
+
+/*            nav {
+background:transparent!important;
+box-shadow:none!important;
+}*/
+
+.full-height {
+  height: 100vh;
+}
+
+.w-100 {
+  width: 100vh;
+}
+
+.w-60 {
+  width: 60vh;
+}
+
+.btn-log {
+  padding: 10px 30px 7px 30px !important;
+}
+.flex-center {
+  align-items: center;
+  display: flex;
+  justify-content: flex-end;
+  background: url('../img/bg.jpg') center;
+  background-size: cover;
+}
+
+.position-ref {
+  position: relative;
+}
+
+.top-right {
+  position: absolute;
+  right: 10px;
+  top: 18px;
+}
+
+.center {
+  text-align: center;
+}
+
+.p-r-50 {
+  padding-right:50px;
+}
+
+.title {
+  font-size: 36px;
+}
+
+.links > a {
+  color: #636b6f;
+  padding: 0 25px;
+  font-size: 12px;
+  font-weight: 600;
+  letter-spacing: .1rem;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+.m-b-md {
+  /*margin-bottom: 30px;*/
+}
+
+.input-field {
+  position: relative;
+  margin-top: 0rem; 
+}
+
+/*.form-register {
+padding: 50px !important;
+background: #fff;
+border-radius: 34px;
+}*/
+
+.form-register input {
+  margin: 0 0 10px 0 !important;
+  border-bottom: 1px solid #fff !important;
+}
+
+.msg {
+    color: #555;
+    margin-bottom: 30px;
+    text-align: center;
+}
